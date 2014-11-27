@@ -1,0 +1,6 @@
+{
+    "name": "extend-es6",
+    "description": "Extend es6 module",
+    "main": "index.es6.js",
+    "dependencies": {}
+}
