@@ -1,21 +1,27 @@
-## extend-es6
-  ES6 deep extend module
+# extend
 
-### Installation
+Deep extend micro library in ES6
 
-    $ bower install --save zheneva/extend-es6
+## Installation
 
-### Examples
+- `npm i --save opudalo/extend`  
+or  
+- `bower i --save opudalo/extend`
+
+## API
+
+### extend(object, object...)
+
+  Deep extends an object with another object's properties.
+
+## Examples
 
 ```js
+import extend from 'extend'
 
-extend({ a: 1, b: 5 }, { c: 3, b: { a: 1 } })
-//{ 
-//  a: 1,
-//  b: {
-//    a: 1
-//  },
-//  c: 3
-//}
-
+let obj = { a: 1, b: 5 } 
+extend(obj, { c: 3, b: { a: 1 } })
+/* 
+obj now is {a: 1, c: 3, b: { a: 1 } }
+*/
 ```
