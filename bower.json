@@ -1,6 +1,17 @@
 {
-    "name": "extend-es6",
-    "description": "Extend es6 module",
-    "main": "index.es6.js",
-    "dependencies": {}
+  "name": "extend",
+  "version": "1.0.0",
+  "description": "extend micro library",
+  "authors": [
+    "Eugene Chechurin <e.chechurin@gmail.com> (https://github.com/opudalo)"
+  ],
+  "main": "lib/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/opudalo/extend",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {}
 }
